@@ -1,0 +1,13 @@
+:root{
+    --maincolor: #fff;
+    --subcolor: #6c5e5e;
+    --accentcolor: #e46b6b;  
+}
+
+* {
+    font-family: sans-serif, serif;
+}
+
+aside {
+    
+}
