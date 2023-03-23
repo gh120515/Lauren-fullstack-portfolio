@@ -10,8 +10,8 @@ The repository will be updated progressively and continuously as I acquire addit
 
 Refer to the 'Update notes' section to see my progression as a web developer.
 
-Link to the GitHub repository: <https://github.com/gh120515/Lauren-fullstack-portfolio>
-Link to the webpage: <https://gh120515.github.io/Lauren-fullstack-portfolio>
+- Link to the GitHub repository: <https://github.com/gh120515/Lauren-fullstack-portfolio>
+- Link to the webpage: <https://gh120515.github.io/Lauren-fullstack-portfolio>
 
 ## Update notes
 
@@ -28,10 +28,13 @@ Additional code references include the following:
 
 version 1 (current as of March 2023):
 - 'Flexbox Cards' by Quackit: <https://www.quackit.com/css/flexbox/examples/flexbox_cards.cfm>
+- 'How to Add an HTML Button that Acts Like a Link' by W3 docs: <https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html>
 - 'How to Create CSS Animation on Scroll' by Oscar Jite: <https://alvarotrigo.com/blog/css-animations-scroll/>
+- 'How TO - Contact Form' by W3 Schools: <https://www.w3schools.com/howto/howto_css_contact_form.asp>
 - HTML 'Fixed Sidebar' by W3 Schools: <https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp>
+- 'Normalize.css' by Necolas <https://github.com/necolas/normalize.css/>
 - 'Scrolling gradient' by Mike: <https://codepen.io/MadeByMike/pen/eKPZZz>
-<!-- - **May not use** 'Sticky Navigation Bar' by W3 Schools: <https://www.w3schools.com/howto/howto_js_navbar_sticky.asp> -->
+- 'Using CSS transitions' by MDN: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions>
 
 
 ## License
