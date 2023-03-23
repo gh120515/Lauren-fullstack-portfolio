@@ -6,7 +6,7 @@
 
 This project will serve to showcase my abilities as a full-stack web developer, from HTML, CSS and beyond.
 
-The repository will be updated progressively and continuously as I acquire additional skills, beyond my time as a student of the University of Adelaide bootcamp.
+The repository will be updated progressively and continuously as I acquire additional skills, beyond my time as a student of the University of Adelaide coding bootcamp.
 
 Refer to the 'Update notes' section to see my progression as a web developer.
 
@@ -16,6 +16,8 @@ Refer to the 'Update notes' section to see my progression as a web developer.
 ## Update notes
 
 Last updated: March 2023
+![Screenshot of Desktop view (as of Mar23](assets/screenshots/desktopMar23.png)
+![Screenshot of Mobile view (as of Mar23)](assets/screenshots/mobileMar23.png)
 
 - version 1 (March 2023): Created the portfolio, to demonstrate and apply my current knowledge of HTML and CSS.
 
