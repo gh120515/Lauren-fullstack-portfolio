@@ -1,0 +1,251 @@
+:root{
+    --maincolor: #4a4950;
+    --mainhover: #ebe4e492;
+    --headingcolor: #e5dede;
+    --accentcolor: #e46b6b;  
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+/* sidebar */
+
+.sidenav {
+    height: 100%; 
+    width: 180px; 
+    position: fixed; 
+    /* to research flexbox for sidebars */
+    display: flex;
+    flex-direction: column;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: var(--maincolor);
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.sideprofile {
+    z-index: 2; 
+    top: 30%; 
+    padding: 10px;
+}
+
+.sidenavlinks {
+    /* separated from original sidenav class above to float the navigation links slightly below */
+    position: fixed; 
+    z-index: 2; 
+    top: 40%; 
+    padding-top: 20px
+}
+
+.sidenavlinks a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--headingcolor);
+    display: block;
+
+    /* aligned sidebar slightly  below to make room for About Me*/
+}
+
+.sidenav a:hover {
+    color: var(--mainhover)
+}
+
+aside .pfp {
+    scale: 40%;
+    z-index: 2; 
+    position: absolute;
+    top: 140px;
+    left: -90px;
+    border-radius: 30px;
+}
+
+aside p{
+    color: var(--headingcolor)
+}
+
+aside.h2{
+    font-size: 1.5em;
+}
+
+/* main */
+
+h1 {
+    padding: 0.5em 0;
+}
+
+h2{
+    color: var(--headingcolor);
+}
+
+section > h2 {
+    color: var(--maincolor)
+}
+
+p.indent {
+    text-indent: 10px;
+}
+
+body {	
+	background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #dcbcac 75%);
+}
+
+
+html {
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-size: 1.15rem;
+	line-height: 1.4em;
+}
+
+
+main {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border-radius: 10px;
+	color: var(--maincolor);
+	margin: 40px 40px 40px 220px; /* margin-left slightly more the width of the sidebar */
+    padding: 1% 2.5%;
+    line-height: 1.5em;
+}
+
+/* Animations */
+
+article {
+    animation: fade-left 1s ease-in; 
+}
+
+.fadein-f {
+    animation: fade-left 0.5s ease-in;
+}
+
+.fadein-s {
+    animation: fade-left 0.75s ease-in;
+}
+
+
+/* cards */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 15em;
+    align-items: stretch;
+  }
+  .card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: #888584;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+  .card:nth-child(1) {
+    width: 420px;
+  }
+
+/* hide nav bar for desktop/tablet sized screens */
+nav{
+    display: none;
+}
+
+nav .sidenavlinks-mobile{
+    display: flex;
+    align-content: column;
+}
+
+footer {
+    color: var(--maincolor); 
+    font-size: 0.7em;
+    text-align: center;
+   margin: 40px 0 40px 16%;
+}
+
+/* Responsive layouts for smaller screen sizes */
+
+@media screen and (max-width:650px){
+      .cards {justify-content: center !important;}
+    }
+
+@media screen and (max-width:560px){
+    /* hide sidebar in smaller screens & change to a top bar instead */
+    aside {display: none;}
+    main {margin: 20px}
+    footer {margin: 0;}
+
+    nav {
+        /* important marker to override the previous display:none for desktop devices */
+        display: flex !important;
+        float: top;
+        justify-content: center;
+        text-decoration: none;
+        flex-wrap: wrap;
+        background-color: var(--maincolor);
+        padding: 20px;
+    }
+
+    .mobile a{
+        display: flex;
+        text-decoration: none;
+        padding: 6px 8px 6px 16px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: var(--headingcolor);
+    }
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   
+}
+
+@media screen and (max-width: 450px) {
+    /* to shrink sidebar on smaller screens */
+
+}
+
+
+@keyframes fade-left {
+    0% {
+      transform: translateX(-30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
