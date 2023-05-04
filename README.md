@@ -15,11 +15,13 @@ Refer to the 'Update notes' section to see my progression as a web developer.
 
 ## Update notes
 
-Last updated: March 2023
+Last updated: May 2023
 ![Screenshot of Desktop view (as of Mar23](assets/screenshots/desktopMar23.png)
 ![Screenshot of Mobile view (as of Mar23)](assets/screenshots/mobileMar23.png)
 
-- version 1 (March 2023): Created the portfolio, to demonstrate and apply my current knowledge of HTML and CSS.
+- version May 2023: Added link to 'Whiskers of Zen' project.
+
+- version March 2023: Created the portfolio, to demonstrate and apply my current knowledge of HTML and CSS.
 
 
 ## Credits
