@@ -16,8 +16,9 @@ Refer to the 'Update notes' section to see my progression as a web developer.
 ## Update notes
 
 Last updated: May 2023
-![Screenshot of Desktop view (as of Mar23](assets/screenshots/desktopMar23.png)
-![Screenshot of Mobile view (as of Mar23)](assets/screenshots/mobileMar23.png)
+![Screenshot of Desktop view (as of Jul23)](assets/img/eventify.png)
+
+- version July 2023: Added link to 'Eventify' project.
 
 - version May 2023: Added link to 'Whiskers of Zen' project.
 
